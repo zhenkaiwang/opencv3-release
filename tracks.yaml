@@ -19,7 +19,7 @@ tracks:
     release_tag: :{ask}
     ros_distro: indigo
     vcs_type: tar
-    vcs_uri: /home/vrabaud/workspace/ws_opencv3/tmp/opencv.tar.gz
+    vcs_uri: /home/zackwang/opencv.tar.gz
     version: :{ask}
   jade:
     actions:
@@ -41,7 +41,7 @@ tracks:
     release_tag: :{ask}
     ros_distro: jade
     vcs_type: tar
-    vcs_uri: /home/vrabaud/workspace/ws_opencv3/tmp/opencv.tar.gz
+    vcs_uri: /home/zackwang/opencv.tar.gz
     version: :{ask}
   kinetic:
     actions:
@@ -53,7 +53,7 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: null
-    last_version: 3.3.1
+    last_version: 3.4.3
     name: upstream
     patches: kinetic
     release_inc: '5'
@@ -61,7 +61,7 @@ tracks:
     release_tag: null
     ros_distro: kinetic
     vcs_type: tar
-    vcs_uri: /home/vrabaud/workspace/ws_opencv3/tmp/opencv.tar.gz
+    vcs_uri: /home/zackwang/opencv.tar.gz
     version: :{ask}
   lunar:
     actions:
@@ -81,5 +81,5 @@ tracks:
     release_tag: null
     ros_distro: lunar
     vcs_type: tar
-    vcs_uri: /home/vrabaud/workspace/ws_opencv3/tmp/opencv.tar.gz
+    vcs_uri: /home/zackwang/opencv.tar.gz
     version: :{ask}
